@@ -2,8 +2,6 @@
 
 /* =================================================================== 
  *
- *  Kairos v1.0 Main Stylesheet
- *  11-06-2018
  *  ------------------------------------------------------------------
  *
  *  TOC:
@@ -2358,6 +2356,7 @@ html.no-csstransitions .home-content__main {
     max-width: 1200px;
   }
 
+
 }
 
 @media only screen and (max-width:1600px) {
@@ -2391,6 +2390,7 @@ html.no-csstransitions .home-content__main {
   .home-content__right {
     width: 570px;
   }
+
 
 }
 
@@ -2436,6 +2436,7 @@ html.no-csstransitions .home-content__main {
     width: 530px;
     right: 50px;
   }
+
 
 }
 
@@ -2491,6 +2492,7 @@ html.no-csstransitions .home-content__main {
 
   .home-content__right img {
     margin-top: 0;
+    display: none;
   }
 
 }
@@ -2519,6 +2521,10 @@ html.no-csstransitions .home-content__main {
   .home-scroll {
     right: 3rem;
   }
+    .home-content__right img {
+    margin-top: 0;
+    display: none;
+  }
 
 }
 
@@ -2534,6 +2540,10 @@ html.no-csstransitions .home-content__main {
   .home-content__right {
     width: 480px;
   }
+    .home-content__right img {
+    margin-top: 0;
+    display: none;
+  }
 
 }
 
@@ -2548,6 +2558,10 @@ html.no-csstransitions .home-content__main {
 
   .home-content__social,
   .home-scroll {
+    display: none;
+  }
+    .home-content__right img {
+    margin-top: 0;
     display: none;
   }
 
@@ -2576,6 +2590,10 @@ html.no-csstransitions .home-content__main {
   .home-content__btn-wrap {
     margin-top: 4rem;
   }
+    .home-content__right img {
+    margin-top: 0;
+    display: none;
+  }
 
 }
 
@@ -2595,6 +2613,10 @@ html.no-csstransitions .home-content__main {
   .home-content__right {
     width: 360px;
     margin-top: -28rem;
+  }
+    .home-content__right img {
+    margin-top: 0;
+    display: none;
   }
 
 }
@@ -2622,6 +2644,10 @@ html.no-csstransitions .home-content__main {
   .home-content__btn-wrap .home-content__btn {
     width: 100%;
   }
+    .home-content__right img {
+    margin-top: 0;
+    display: none;
+  }
 
 }
 
@@ -2629,10 +2655,12 @@ html.no-csstransitions .home-content__main {
   .home-content__right {
     width: 280px;
   }
+    .home-content__right img {
+    margin-top: 0;
+    display: none;
+  }
 
 }
-
-
 
 /* ===================================================================
  * # about
